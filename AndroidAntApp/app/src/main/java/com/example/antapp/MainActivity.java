@@ -13,14 +13,10 @@ import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
     static final int REQUEST_IMAGE_CAPTURE = 1;
     private final ImageView mImageView=null;
-<<<<<<< HEAD
     //private Button logout;
     private Button siteButton;
     private Button aboutButton;
-=======
-    private Button logout;
-    private Button identifyButton;
->>>>>>> b7c9b8ef2a4dfb0d5e44806e87c9cc52eb91ba79
+
     private ImageButton file1Button;
     private ImageButton file2Button;
     private ImageButton file3Button;
@@ -31,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
+
         //logout=(Button)findViewById(R.id.button);
         siteButton = (Button)findViewById(R.id.button2);
         aboutButton = (Button)findViewById(R.id.button);
@@ -49,18 +45,6 @@ public class MainActivity extends AppCompatActivity {
         aboutButton.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
                 Intent webIntent = new Intent(MainActivity.this, WebActivity.class);
-=======
-        logout=(Button)findViewById(R.id.button);
-        identifyButton = (Button)findViewById(R.id.button2);
-        file1Button = (ImageButton)findViewById(R.id.imageButton);
-        //file2Button = (ImageButton)findViewById(R.id.imageButton2);
-        //file3Button = (ImageButton)findViewById(R.id.imageButton3);
-        camButton = (ImageButton)findViewById(R.id.imageButton4);
-        identifyButton.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v) {
-                Intent webIntent = new Intent(MainActivity.this, WebActivity.class);
-                webIntent.putExtra("ANT", "Technomyrmex");
->>>>>>> b7c9b8ef2a4dfb0d5e44806e87c9cc52eb91ba79
                 startActivity(webIntent);
             }// end onclick
         });
