@@ -14,8 +14,7 @@ public class WebActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_web);
-        final String antResult = getIntent().getStringExtra("ENTER");
-
+        final Bundle antResult = getIntent().getExtras();//("ENTER");
 
         browser = (WebView)findViewById(R.id.webView);
         browser.setWebContentsDebuggingEnabled(true);
@@ -24,15 +23,8 @@ public class WebActivity extends AppCompatActivity {
         webView.setJavaScriptEnabled(true);
         webView.setAllowUniversalAccessFromFileURLs(true);
         webView.setDomStorageEnabled(true);
-        //browser.setWebViewClient(new WebViewClient() {public void onPageFinished(WebView view, String url) {browser.evaluateJavascript("getAnt('"+antResult+"')",null);}
-        //});
-        //if(antResult.equals("website")){
-            browser.loadUrl("https://antclassifier.herokuapp.com/#"); // for enter site
-        //}
-        //else {
-          //  browser.loadUrl("https://antclassifier.herokuapp.com/about.html");
-        //}
-        // // for about button
 
-    }
+        browser.loadUrl("https://antclassifier.herokuapp.com/#"); // for enter site
+        }
 }
+
