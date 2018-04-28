@@ -27,6 +27,6 @@ public class LoginActivity extends AppCompatActivity {
         webView.setDomStorageEnabled(true);
 
         browser.loadUrl("https://antclassifier.herokuapp.com/about.html"); // for enter site
-       
+
     }
 }
