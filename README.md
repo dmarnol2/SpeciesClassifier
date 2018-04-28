@@ -20,6 +20,12 @@ Version 1.0
 ```
 This version utilizes WebView. The app currently renders the prototype deployed on Heroku. Once the project is hosted publicly, WebView will be updated with the new URL and begin allowing accecss to the classifier.
 
+## Future Requirement
+Once the service is publicly hosted, line 27 in WebActivity.java, and line 29 in LoginActivity.java will need updated with new URL. An example is shown in the pic below:
+```
+![alt text](https://raw.githubusercontent.com/dmarnol2/SpeciesClassifier/blob/master/AndroidAntApp/update.png)
+```
+
 ## Authors
 
   **David Arnold**  - [dmarnol2](https://github.com/dmarnol2)
