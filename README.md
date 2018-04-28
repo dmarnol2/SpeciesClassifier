@@ -22,9 +22,9 @@ This version utilizes WebView. The app currently renders the prototype deployed 
 
 ## Future Requirement
 Once the service is publicly hosted, line 27 in WebActivity.java, and line 29 in LoginActivity.java will need updated with new URL. An example is shown in the pic below:
-```
+
 ![alt text](update.png)
-```
+
 
 ## Authors
 
