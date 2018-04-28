@@ -1,6 +1,6 @@
 # Android app utilizing AI to identify and classify ant genus
 This Android app was built as a companion to the ML Ant Classifier WebApp project whose GitHub repo can be found here:
-* [ML-Ant-WebApp](https://github.com/dmarnol2/ML-Ant-WebApp)
+   [ML-Ant-WebApp](https://github.com/dmarnol2/ML-Ant-WebApp)
 
 ## Motivation
 This project is a data science project that aims to develop a system to automatically identify insect specimens. This system would primarily help researchers studying biodiversity, behavior, and ecology of ants but also provide means to support amateur entomologists in the field as well as to generalize to other insect species. 
@@ -9,7 +9,7 @@ The biological classification system and identification of animal and plant taxa
 
 ## Built With
 
-* [Android Studio](https://developer.android.com/studio/) 
+   [Android Studio](https://developer.android.com/studio/) 
 
 ## Contributing
 
@@ -23,7 +23,7 @@ This version utilizes WebView. The app currently renders the prototype deployed 
 
 ## Authors
 
-* **David Arnold**  - [dmarnol2](https://github.com/dmarnol2)
+  **David Arnold**  - [dmarnol2](https://github.com/dmarnol2)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
